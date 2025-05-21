@@ -1,0 +1,24 @@
+[
+    {
+        "code": "LDN",
+        "name": "London", 
+        "length": 7,
+        "start": "2025-06-1",
+        "resort": "Rizt London",
+        "perPerson": 1200,
+        "image": "london.jpg",
+        "description": "Experience London - London trip"
+
+    },
+{
+    
+        "code": "NYC",
+        "name": "New York", 
+        "length": 5,
+        "start": "2025-07-10",
+        "resort": "The Plaza Hotel",
+        "perPerson": 1000,
+        "image": "newyork.jpg",
+        "description": "Explore New York - New York trip"
+}
+]

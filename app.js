@@ -6,7 +6,8 @@ const express = require("express");
     
 
     //require the controller
-   const homeController = require("./app_server/controllers/homeController");
+    const homeController = require("./app_server/controllers/homeController");
+    const travelRoutes= require("./app_server/routes/travel");
     app.set("view engine", "hbs");
     app.set("views", __dirname + "/views");
 
@@ -18,6 +19,8 @@ const express = require("express");
 app.get("/contact", (req, res) => {
      res.render("contact", {title:"Contact Us", description: "This is the contact page."});
 });
+
+    app.use(travelRoutes);
     app.listen(port, () => {
         console.log(`Server is running at http://localhost:${port}`);
 

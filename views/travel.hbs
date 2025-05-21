@@ -1,0 +1,14 @@
+<h1>{{title}}</h1>
+
+<ul>
+    {{#each trips}}
+    <li>
+        <h2>{{name}}</h2>
+        <p>{{description}}</p>
+        <p><strong>Start Date:</strong>{{start}}</p>
+         <p><strong>Duration:</strong>{{length}} days</p>
+         <p><strong>Price per person:</strong>${{perPerson}}</p>
+
+    </li>
+    {{/each}}
+</ul>
