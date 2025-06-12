@@ -1,0 +1,40 @@
+[
+   {
+   
+    "code": "BALI01",
+    "name": "Bali Adventure",
+    "length" : 7,
+    "start": "2025-07-01T00:00:00.000Z",
+    "resort": "Bali Resort & Spa",
+    "perPerson": "899.99",
+    "image":"bali.png",
+    "description": "Experience the beauty and culture of Bali."
+
+
+},
+{
+    "code":"PARIS01",
+    "name": "Paris Getaway",
+    "length" : 5,
+    "start": "2025-08-15T00:00:00.000Z",
+    "resort": "Champs Elysees Hotel",
+    "perPerson": "1099.99",
+    "image":"paris.png",
+    "description": "Explore the romantic city of Paris."
+
+
+},
+{
+
+    "code":"NYC01",
+    "name": "New York City Explorer",
+    "length" : 4,
+    "start": "2025-09-10T00:00:00.000Z",
+    "resort": "Midtown Manhattan Inn",
+    "perPerson": "799.99",
+    "image":"nyc.png",
+    "description": "Discover the sights and sounds of NYC."
+
+}
+
+]
