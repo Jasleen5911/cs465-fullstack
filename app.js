@@ -37,6 +37,9 @@ app.get("/about", (req, res) => {
 app.get("/contact", (req, res) => {
   res.render("contact", { title: "Contact Us", description: "This is the contact page." });
 });
+app.get('/', (req, res) => {
+  res.send('Backend is running');
+});
 
 // Catch 404
 app.use(function (req, res, next) {
